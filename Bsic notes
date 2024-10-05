@@ -1,0 +1,165 @@
+# Python
+* Python is popular programming language user on server to create web application.
+
+### Python ia used for :
+- Web developement
+- Software developement
+- Mathmatics
+- System scripting
+
+What can Python do?
+
+   -  Python can be used on a server to create web applications.
+- Python can be used alongside software to create workflows.
+-   Python can connect to database systems. It can also read and modify files.
+- Python can be used to handle big data and perform complex mathematics.
+-  Python can be used for rapid prototyping, or for production-ready software development.
+- ".py" is file extension is python.
+
+## Python Indentation:
+
+- Python indentation is refer to space at the begining of code line.
+- where in other programing language indentation is only for readiblity of code but in python indentation is most important.
+- python use indentation to indicate block of code.
+
+## Python Variable:
+- Variables are container to store data.
+- Varibles are created when you assign value to it.
+
+## Comments:
+- Comments are used to explain something like note.
+- Comments is start with #, rest of line will consider as comments.
+- Multiple line comments are three double quote or single quote at the begining and ending of line ("""abc""")/('''abc''').
+- Comments cannot be executed while running the program.
+
+## Variables:
+- Variable are container for storing data values.
+- Python has no command for declaring variable.
+- A variable is created the moment you first assign a value to it.
+- Variables do not need to be declared with any particular type, and can even change type after they have been set.
+## Casting Variables:
+- If we want to specify a data type it can be done with casting.
+- We change datatype with the help of casting. 
+   - int to str 
+   - int to float
+- We can get the type of variable by "type()".
+## Variable Names:
+- Variable names are "Case Sensitive".
+- A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
+
+    - A variable name must start with a letter or the underscore character.
+    - A variable name cannot start with a number.
+    - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ).
+    - Variable names are case-sensitive (age, Age and AGE are three different variables).
+    - A variable name cannot be any of the Python keywords.
+
+    - myvar = "John"
+    - my_var = "John"
+    - _my_var = "John"
+    - myVar = "John"
+    - MYVAR = "John"
+    - myvar2 = "John".
+
+### Multi Words Variable Names:
+
+#### Camel Case:
+- Each word except first letter in capital.
+- myFirstName = "Gayatri".
+
+#### Pascal Case:
+- Each word start with capital letter.
+- MyFirstName = "Gayatri".
+
+#### Snake Case:
+- Each word is separated by an underscore character.
+- my_first-name = "Gayatri".
+#### Assign Multiple Values:
+- Many values to multiple variable.
+- Python allows you to assign values to multiple variables in one line:
+
+- x, y, z = 1, 2, 3
+#### One Value To Multiple Variables : 
+- x=y=z= "Orange"
+
+#### Unpack Collection : 
+- If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+
+- fruits = ["Apple", "Banana", "Cherry"]
+- x,y,z = fruits
+
+#### Output Variable : 
+- The python output print() funstion is often used to output variable.
+- x= "I am Data Analyst" 
+    - print (x)
+- In print() function you output multiple variable, seperated by comma.
+  - x = "I"
+  - y = "am"
+  - z = "Data analyst"
+   - Print(x,y,z)
+
+- You can also use the + operator to output multiple variables:
+
+   - x = "I"
+   - y = "am"
+   - z = "Data analyst"
+   - Print(x+y+z)
+
+- When you try numbers and string concatination by using + operator it will show error best way is to seperate them by comma it supports all data type.
+
+
+### Global Variable : 
+- Global variable are created outside of a function.
+- Global variables are used by everyone inside and outside the function.
+#### Created outside the function and used inside the function.
+- x = "awesome"
+
+- def myfunc():
+    - print("Python is " + x)
+
+- myfunc() 
+
+- Variable x is created outside function and is global variable, we can use it inside and outside of function.
+
+#### Created variable inside and outside a function.
+- x = "awesome"(#XA)
+
+- def myfunc():
+    - x = "fantastic"(#XB)
+  print("Python is " + x)
+
+- myfunc()
+
+- print("Python is " + x) 
+
+- XA is global variable and used anywhere inside and outside a function.
+- XB is local variable and only used inside a function
+- If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. The global variable with the same name will remain as it was, global and with the original value.
+
+#### The Global Keyword :
+- Normally when we create a variable inside a function it is local and can only used inside that function.
+- To create global variable inside a function we can use keyword "GLOBAL"
+
+- def myfunc():
+   -  global x
+   -  x = "fantastic"
+
+- myfunc()
+
+- print("Python is " + x) 
+
+
+- Also, use the global keyword if you want to change a global variable inside a function.
+
+x = "awesome"
+
+- def myfunc():
+    - global x
+    - x = "fantastic"
+
+- myfunc()
+
+- print("Python is " + x)
+
+
+
+
