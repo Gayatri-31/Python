@@ -368,5 +368,121 @@ Example
    - txt = "i am \"Data analyst\" gayatri"
 
 
+### Python booleans : 
+- Booleans represent one of two value True or False.
+
+  - print(10 > 9)
+  - print(10 == 9)
+  - print(10 < 9)
+
+- Almost any value is evaluated to True if it has some sort of content.
+
+- Any string is True, except empty strings.
+
+- Any number is True, except 0.
+
+- Any list, tuple, set, and dictionary are True, except empty ones.
+
+- In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False.
+
+  - bool(False)
+  - bool(None)
+  - bool(0)
+  - bool("")
+  - bool(())
+  - bool([])
+  - bool({})
+
+### Python Operator : 
+ - Operators are used to perform operation on values or variable.
+
+Python divides the operators in the following groups:
+
+-  Arithmetic operators (+,-,*,/,%,//,**)
+-  Assignment operators(=)
+-  Comparison operators(==,!=, >, <, >=, <=>)
+- Logical operators(used to cobine condition or, and)
+- Identity operators(is, is not)
+-  Membership operators(in, not in)
+-  Bitwise operators
+
+
+## Python List : 
+
+#### List : 
+
+- Lists are used to store multiple items in single variable.
+- List are one of the 4 built in data types.
+- Lists are created using square brackets[].
+  -  thislist = ["apple", "banana", "cherry"]
+  - print(thislist)
+
+1) List items: 
+- List items are oreder, changeable and allow duplicates.
+- List items are indexed first item is [0] ad second as [1]
+- (Ordered) if you add new item to list it will add to the end of the list.
+- (Changeble) You can add, remove, change and replace item in the list after creating.
+
+- (Allow Duplicate) List are idexed stiil it can allow duplicate.
+
+
+2. List Length: 
+- To determine how many items list has we use len() function.
+
+3. List Item Datatype : 
+
+- A list can contain different data type.
+
+  - list1 = ["abc", 34, True, 40, "male"]
+
+
+4. Type():
+- List has its own data type called list.
+
+5. The List Constructor : 
+- It is also possible to use list constructor to create list.
+
+
+
+  - lst = list((1,2,3,4))
+
+#### Access List Items : 
+- List items are indexed and you can access them by referring to the index number
+
+- thislist = ["apple", "banana", "cherry"]
+  - Print(thislist[1])
+
+1.  Negetive Indexing: 
+- Negetive indexing means start from end. 
+
+- -1 refer to last item and -2 refers to second last.
+   - print(thislist[-1])
+
+2. Range of indexes : 
+- We can specify range of indexes by specifying where to start where to end.
+  -  print(thislist[2:5])
+
+- By leaving out start value blank range will start from first item in list.
+
+- By leaving out end blank it will choose last item of the list.
+- thislist = ["apple", "banana", "cherry"]
+   - Print(thislist[-4:-1])
+
+
+#### Change list items :
+
+- To chnage list item referto specific index.
+
+-  thislist = ["apple", "banana", "cherry"]
+
+   - thislist[1]= "orange"
+
+
+- Change range value : 
+
+- Mention start index and end index.
+
+  - thislist[1:2] = ["Mango", "kiwi"]
+
 
 
