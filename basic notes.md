@@ -486,3 +486,140 @@ Python divides the operators in the following groups:
 
 
 
+  #### Insert Item : 
+
+- To insert new item in list, without replacing any item in list.
+
+- The insert() method insert item at specific index.
+
+  - thislist.insert(2,"mango")
+
+
+### Add list item : 
+
+1. Append method : 
+
+- To add iten at the end of the list we use Append() method.
+  - thislist.append("orange")
+
+
+2. Insert method : 
+
+- Used to insert() item at specific index.
+  - thislist.insert(3, "kiwi")
+
+
+3. Extent list  :
+
+- Used to appent another list to current list.
+
+   - thislist.extent(list2)
+
+- The element will added to the end of the list.
+
+- We can add any iterable to list like dict, set, tuple etc
+
+   - thislist.extend(thistuple)
+
+### Remove List Item : 
+1. Remove() method used to remove specific item from list.
+
+  - thislist.remove("banana")
+
+- We need to mention item name not index.
+
+- If there are more then one same value then it will remove value which occured first.
+
+2. Pop():
+
+- Pop() method removes specific index.
+
+- Pop() method need specific index.
+
+  -nthislist.pop(3)
+
+- If we do not provide index it will remove last item of the list.
+
+
+3. del :
+- del word also removes item from specific index.
+
+   - del thislist[3]
+
+- del keyword also delete entire list.
+ 
+   - del thislist
+
+4. Clear list : 
+
+-  the clear() method empties the list.
+    - thislist.clear()
+
+- this methos delete the content of list but list still remain.
+
+### Loop Through List : 
+1. For loop : 
+- we can loop through list by using for loop.
+
+- Print all items one by one in the list.
+
+- thislist = ["apple", "banana", "cherry"]
+
+
+- for i in thislist : 
+    - print(i)
+
+- Loop through index number 
+
+- We can also loop through list by refering index number.
+
+- Use range() and len() to loop through list.
+
+-  thislist = ["apple", "banana", "cherry"]
+
+- for i in range(len(thislist)) : 
+   - print(thislist[i])
+
+2. While loop :
+
+- Use the len() function to determine the length of the list, then start at 0 and loop your way through the list items by referring to their indexes.
+
+
+
+- while i < len(thislist) :
+   - print(thislist[i])
+
+#### Sort list : 
+
+1. Sort list alphanumerically : 
+
+- thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+
+   - thislist.sort()
+
+- thislist = [100, 50, 65, 82, 23]
+   - thislist.sort()
+
+
+- Sort in descending order 
+
+  - thislist.sort(reverse = True)
+
+
+  - Case sensetive sort - sort() method id case sensetive written capital letters before small.
+
+  - If we want case in-sensitive sort function.
+    - thislist.sort(key= str.lower)
+
+
+2. Reverse Order
+
+- The reverse() method reverses the current sorting order of the elements.
+    - thislist.reverse()
+
+
+
+
+
+
+
