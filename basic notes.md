@@ -617,6 +617,103 @@ Python divides the operators in the following groups:
 - The reverse() method reverses the current sorting order of the elements.
     - thislist.reverse()
 
+ ### Copy list :
+
+ - We cannot copy list by using method list1 = list2 because changes made in list1 will reflect to list2.
+
+1. Copy method : 
+ - We can use built in copy method to copy list.
+ - copy()
+
+ - list1 = ["apple", "banana", "cherry"]
+   - list2 = list1.copy()
+
+2. List method : 
+
+- We can use built in list() method to copy list.
+
+- list1 = list(list2)
+
+
+3. By using slice operator : 
+
+- You can also make a copy of list by using slice operator ":"
+
+- list1 = list2[:]
+
+
+### Join list : 
+ 
+- There are sevrals ways to join the list.
+
+
+1. Using + operator : 
+- We can join the list by using + operator.
+    - list1 = ["a", "b", "c"]
+    - list2 = [1, 2, 3]
+
+- list3 = lis1 + list2
+
+2. By append() method : 
+
+
+- for x in list1 :
+    -  list2.append(x)
+
+    
+3. By using extent method : 
+
+
+- list1.extent(list2)
+
+
+## List methods :
+
+1. Append() :
+
+- Use to add element at the end of the list.
+
+2. Clear() :
+
+- Clear() Removes all element from list but list will be there.
+3. Copy() :
+- Copy the elements from other list to current list.
+
+4. Count() :
+
+- Count the number of item in the list.
+
+5. Extent() :
+- Add the elements of list1, to current list at the end.
+
+6. Index() : 
+- Used to get position of element in the list.
+
+7. Insert() : 
+- Adds element at specific position and need index no.
+
+8. Pop():
+
+- Removes element at specific position, also need index no.
+
+9.   Remove() : 
+- Remove value with specific position, need value not index.
+
+10.  Reverse() : 
+- Revrse the order of list.
+11. Sort() : 
+- Sort list asc dec.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
